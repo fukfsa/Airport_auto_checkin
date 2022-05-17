@@ -4,6 +4,7 @@
 name: sspautosign
 
 on:
+  workflow_dispatch:
   watch:
     types: [ started ]
   schedule:
