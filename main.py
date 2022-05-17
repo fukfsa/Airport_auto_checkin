@@ -131,7 +131,7 @@ class SspanelQd(object):
     def server_send(self, msg):
         if self.SendKey == '':
             return
-        server_url = "https://sctapi.ftqq.com/" + str(self.SendKey) + ".send"
+        server_url = "https://sc.ftqq.com/" + str(self.SendKey) + ".send"
         data = {
             'text': self.name + "签到通知",
             'desp': msg
