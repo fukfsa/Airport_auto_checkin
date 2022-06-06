@@ -208,9 +208,9 @@ while i < len(groups):
     username = profile[0]
     pswd = profile[1]
     print(site_name)
-    print(web_site)
-    print(username)
-    print(pswd)
+    #print(web_site)
+    #print(username)
+    #print(pswd)
     
     run = SspanelQd(site_name, web_site ,username ,pswd)
     run.main()
